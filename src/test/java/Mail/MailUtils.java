@@ -59,7 +59,7 @@ public class MailUtils {
          * помещаем в лист recent
          */
         for (Message message : messages) {
-            System.out.println();фывв
+            System.out.println();
             System.out.println("---------------------------------");
             if (message.isSet(Flags.Flag.RECENT)) {
                 System.out.println("This one is RECENT");
